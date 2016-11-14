@@ -1,0 +1,37 @@
+Install in fedora 24
+	
+Configure the package management system (yum).
+
+Create a /etc/yum.repos.d/mongodb-org-3.4.repo file so that you can install MongoDB directly, using yum.
+
+Changed in version 3.0: MongoDB Linux packages are in a new repository beginning with 3.0.
+
+For the latest stable release of MongoDB
+
+Use the following repository file:
+
+[mongodb-org-3.4]
+name=MongoDB Repository
+baseurl=https://repo.mongodb.org/yum/redhat/7/mongodb-org/testing/x86_64/
+gpgcheck=1
+enabled=1
+gpgkey=https://www.mongodb.org/static/pgp/server-3.4.asc
+
+
+
+
+
+
+
+Before: 
+
+sudo yum install -y mongodb-org
+
+Link https://docs.mongodb.com/master/tutorial/install-mongodb-on-red-hat/
+
+
+Last:
+
+Create folder home/user/data
+Create subfolder home/user/data/db
+

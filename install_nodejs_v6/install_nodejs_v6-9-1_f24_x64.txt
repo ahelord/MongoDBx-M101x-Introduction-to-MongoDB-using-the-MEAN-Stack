@@ -1,0 +1,4 @@
+1. Como super usuario bajar repositorio de node
+ curl --silent --location https://rpm.nodesource.com/setup_6.x | bash -
+2. Instalar node
+yum -y install nodejs
