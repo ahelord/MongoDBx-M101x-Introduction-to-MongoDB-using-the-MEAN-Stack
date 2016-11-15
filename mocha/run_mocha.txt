@@ -1,0 +1,8 @@
+./node_modules/.bin/mocha test.js # correr pruebas de un archivo
+
+./node_modules/.bin/mocha -g "fail" test.js # correr pruebas que corresponden a la expresion regular
+
+./node_modules/.bin/mocha -R dot test.js # correr reporte de pruebas en modo 
+consiso ./node_modules/.bin/mocha -R xunit test.js # correr el reporte de 
+pruebas en formato xml ./node_modules/.bin/mocha -R nyan test.js # correr el 
+reporte de pruebas en con un gatito ascii
